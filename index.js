@@ -1,0 +1,4 @@
+
+function count(){
+   alert("hello");
+}

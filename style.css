@@ -1,0 +1,10 @@
+.calculatrice{
+    background-color:silver ;
+}
+.container{
+    margin-top:200px;
+}
+input{
+    width: 90px;
+    height: 50px;
+}
