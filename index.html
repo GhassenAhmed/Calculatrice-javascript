@@ -19,14 +19,14 @@
 
             <div class="input">
                 <div class="py-1 px-1">
-                    <input type="button" value="AC" id="methods">
+                    <input type="button" value="C" id="methods" onclick="effacer()">
                     <input type="button" value="%" id="methods" onclick="display('%')">
                     <input type="button" value="/" id="methods" onclick="display('/')">
                 </div>
                 <div class="py-1 px-1">
                     <input type="button" value="+" id="methods" onclick="display('+')">
-                    <input type="button" value="—" id="methods" onclick="display('—')">
-                    <input type="button" value="x" id="methods" onclick="display('x')"> 
+                    <input type="button" value="—" id="methods" onclick="display('-')">
+                    <input type="button" value="x" id="methods" onclick="display('*')"> 
                 </div>
 
                 <div class="py-1 px-1">
@@ -50,7 +50,7 @@
                 <div class="py-1 px-1">
                     <input type="button" value="." onclick="display('.')">
                     <input type="button" value="0" onclick="display('0')">
-                    <input type="button" value="=" onclick="display('=')"> 
+                    <input type="button" value="=" onclick="calculate()"> 
                 </div>
                 
             </div>
