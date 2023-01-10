@@ -1,4 +1,23 @@
+///////////Variables/////////////
+let output=document.getElementById('out');
 
-function count(){
-   alert("hello");
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+///////////Functions/////////////
+
+function display(value){
+    output.value+=value;
 }
