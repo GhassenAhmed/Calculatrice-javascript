@@ -38,6 +38,9 @@ function getPrevious(){
     checkSyntax();
 }
 function checkSyntax(){
+    if(operations.includes(current) && outputLength==1){
+        removeChar();
+    }
     if(operations.includes(previous) && operations.includes(current)){
         if(previous==current){
             removeChar();
