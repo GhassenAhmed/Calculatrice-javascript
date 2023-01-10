@@ -1,10 +1,23 @@
 .calculatrice{
-    background-color:silver ;
+    background-color:#EFF5F5;
+    padding:10px 10px 10px 10px ;
+    border-radius: 15px;
 }
 .container{
     margin-top:200px;
 }
 input{
+    margin:5px 5px 5px 5px;
     width: 90px;
     height: 50px;
+    border: none;
+    border-radius: 10px;
+    background-color: #D6E4E5;
+    color: #497174;
+}
+#out{
+    width: 298px;
+    height: 100px;
+    background-color: #e2eced;
+    text-align: center;
 }
