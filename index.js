@@ -42,11 +42,13 @@ function checkSyntax(){
         if(previous==current){
             removeChar();
         }else{
-            output.value=output.value.slice(0,outputLength-2)+output.value.slice(outputLength-1,outputLength);
+            override(0,outputLength-2,outputLength-1,outputLength);
         }
     }
 }
-
+ function override(a,b,c,d){
+    output.value=output.value.slice(a,b)+output.value.slice(c,d);
+ }
 function removeChar(){
     output.value=output.value.substring(0,outputLength-1);
 }
