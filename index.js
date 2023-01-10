@@ -1,6 +1,7 @@
 ///////////Variables/////////////
 let output=document.getElementById('out');
 let outputLength;
+let current,previous;
 
 
 
@@ -21,12 +22,8 @@ let outputLength;
 function display(value){
     output.value+=value;
     outputLength=output.value.length;
-    for(let i=0;i<outputLength;i++){
-        for(let j=i+1;j<outputLength;j++){
-            if
-        }
-    }
-    // console.log(outputLength);
+    current=value;
+    getPrevious();
 }
 
 function effacer(){
@@ -34,4 +31,7 @@ function effacer(){
 }
 function calculate(){
     output.value= eval(output.value);
+}
+function getPrevious(){
+    previous=output.value.substring(outputLength-2,outputLength-1);
 }
