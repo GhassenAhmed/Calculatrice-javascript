@@ -22,7 +22,7 @@ let operations=['+','-','*','/','%'];
 
 function display(value){
     output.value+=value;
-    outputLength=output.value.length;
+    outputLength=output.value.length
     current=value;
     getPrevious();
 }
