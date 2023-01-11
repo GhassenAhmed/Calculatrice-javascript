@@ -2,7 +2,7 @@
 let output=document.getElementById('out');
 let outputLength;
 let current,previous;
-let operations=['+','-','*','/','%']
+let operations=['+','-','*','/','%'];
 
 
 
@@ -22,7 +22,7 @@ let operations=['+','-','*','/','%']
 
 function display(value){
     output.value+=value;
-    outputLength=output.value.length
+    outputLength=output.value.length;
     current=value;
     getPrevious();
 }
