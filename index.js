@@ -2,7 +2,7 @@
 let output=document.getElementById('out');
 let outputLength;
 let current,previous;
-let operations=['+','-','*','/','%'];
+let operations=['+','-','*','/','%']
 
 
 
